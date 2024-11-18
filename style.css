@@ -1,0 +1,160 @@
+.body
+{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mainContainer
+{
+    border: solid black;
+    height: 1300px;
+    
+}
+
+.section1
+{
+    border: solid blue;
+    height: 280px;
+    margin: 1em;
+    display: flex;
+    
+}
+
+.profileImg
+{
+    border: solid red;
+    height: 250px;
+    width: 50%;
+    margin: 1em;
+}
+.myInfo
+{
+   
+    border: solid red;
+    height:250px ;
+    width: 50%;
+    margin: 1em;
+    padding-right: 5px; 
+    text-align: end;
+    display: flex;
+}
+
+.empty
+{
+    /* border: solid purple; */
+    /* height: auto; */
+    width: 50%;
+}
+.myInfo1
+{
+    border: solid lightblue;
+    /* height: auto; */
+    width: 50%;
+    text-align: left;
+}
+
+
+.aboutMe
+{
+    border: solid red;
+    height: auto;
+ margin: 1em;
+ padding-left: 10px;
+    
+}
+.aboutMe h2, .skills h2, .education h2, .workExperience h2, .extraSkills h2{
+
+  text-decoration: underline;
+    font-size: 24px;
+    margin-bottom: 10px;
+
+}
+
+.aboutMe p{
+    font-size: 17px;
+}
+
+.section2
+{
+    border: solid blue;
+    height: 550px;
+    margin: 1em;
+    display: flex;
+    padding-left: 10px;
+    
+}
+.part1
+{
+    border: solid palevioletred;
+    margin: 1em;
+
+}
+
+.skills, .education
+{
+    margin-bottom: 20px;
+   
+    /* padding-left: 10px; */
+  
+}
+
+.skillList
+{
+    font-size: 17px;
+    margin: 1em;
+}
+
+
+
+.clgDegree
+{
+    font-size: 17px;
+    margin: 1em;
+}
+
+.part2
+{
+    border: solid red;
+    width: 70%;
+    margin: 1em;
+    padding: auto;
+
+}
+
+.work-experience {
+    margin-bottom: 30px;
+}
+
+.work-experience h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+   
+}
+.job h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+  
+}
+
+.job p {
+    font-size: 17px;
+  
+    margin-bottom: 10px;
+}
+
+.job ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+.job li , .extraSkills li{
+    font-size: 17px;
+    
+}
+.extraSkills
+{
+    border: solid brown;
+    height: 100px;
+}
